@@ -1,0 +1,16 @@
+@keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .bright {
+    color: #309988;
+    margin-top: 15px;
+    text-shadow: 0 0 10px rgb(164, 215, 228), 0 0 20px rgb(164, 215, 228), 0 0 30px rgb(164, 215, 228), 0 0 40px rgb(164, 215, 228), 0 0 50px rgb(164, 215, 228), 0 0 60px rgb(164, 215, 228), 0 0 70px rgb(164, 215, 228);
+  }

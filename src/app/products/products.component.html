@@ -1,0 +1,9 @@
+<div class="head">
+    <div class="main row m-5 p-2" *ngFor="let prod of products">
+        <img class="img" src="" alt="product">
+        <span>Name: {{ prod.ProductName }} </span>
+        <span>Description: {{ prod.ProductDescription }}</span>
+        <span>Category: {{ prod.ProductCategoryId }}</span>
+        <span>Price: {{ prod.PriceINR }}</span>
+    </div>
+</div>

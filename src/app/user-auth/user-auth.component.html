@@ -1,0 +1,11 @@
+<div class="container py-4 d-flex flex-column justify-content-center align-items-center">
+    <h1 >My Form</h1>
+    <form #myForm="ngForm" (ngSubmit)="submitForm(myForm.value);" class="d-flex flex-column">
+        <input class=" form-control my-2" type="text" ngModel name="Name" placeholder="Name" required value/>
+        <input class=" form-control my-2" type="email" ngModel name="Email" placeholder="Email" required value/>
+        <input class=" form-control my-2" type="tel" ngModel name="Phone" placeholder="Phone Number" required value/>
+        <input class=" form-control my-2" type="text" ngModel name="Message" placeholder="Text" required value/>
+        <button type="submit" class="btn btn-primary my-2">Submit</button>
+    </form>
+</div>
+

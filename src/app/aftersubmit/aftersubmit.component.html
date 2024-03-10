@@ -1,0 +1,29 @@
+<div class="d-flex px-5 mx-5 justify-content-center align-items-center">
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Message</th>
+      <!-- <th scope="col">Actions</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contact of formData.data;">
+      <td>{{ contact._id }}</td>
+      <td><input class="border-0" type="text" [(ngModel)]="contact.Name"></td>
+      <td><input class="border-0" type="text" [(ngModel)]="contact.Email"></td>
+      <td><input class="border-0" type="text" [(ngModel)]="contact.Phone"></td>
+      <td><input class="border-0" type="text" [(ngModel)]="contact.Message"></td>
+      <!-- <td>
+        
+        <button class="btn btn-success" (click)="updateContact(contact)">Save</button>
+        
+        <button class="btn btn-danger" (click)="deleteContact(contact._id)">Delete</button>
+      </td> -->
+    </tr>
+  </tbody>
+</table>
+</div>

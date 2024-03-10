@@ -1,0 +1,32 @@
+{
+  "contactpost": [
+    {
+      "id": "42",
+      "name": "snehal",
+      "email": "snehal@gmail.com",
+      "tel": "9876543210",
+      "msg": "hello im interested here"
+    },
+    {
+      "id": "56",
+      "name": "neha",
+      "email": "mayur@gmail.com",
+      "tel": "",
+      "msg": ""
+    },
+    {
+      "id": "adad",
+      "Name": "gjsgkjs",
+      "Email": "bsfmhgdfjsh",
+      "Phone": "bgshdfggsfk",
+      "Message": "gfehdgsw"
+    },
+    {
+      "id": "45",
+      "name": "snehal",
+      "email": "snehal@gmail.com",
+      "tel": "9876543210",
+      "msg": "hello im interested here"
+    }
+  ]
+}
