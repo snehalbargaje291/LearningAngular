@@ -1,10 +1,9 @@
 .main {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     justify-content: center; /* Align horizontally at the center */
     align-items: center; /* Align vertically at the center */
-    height: 100vh;
   }
   
   .myform {
@@ -13,7 +12,7 @@
     flex-direction: column;
     border-radius: 10px;
     background-color: white;
-    padding: 20% 10%;
+    padding: 10%;
   }
   
   .mylabel {
