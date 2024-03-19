@@ -6,8 +6,8 @@
       <th scope="col">Name</th>
       <th scope="col">Email</th>
       <th scope="col">Phone</th>
-      <th scope="col">Message</th>
-      <!-- <th scope="col">Actions</th> -->
+      <!-- <th scope="col">Message</th> -->
+      <th scope="col">Actions</th>
     </tr>
   </thead>
   <tbody>
@@ -16,13 +16,11 @@
       <td><input class="border-0" type="text" [(ngModel)]="contact.Name"></td>
       <td><input class="border-0" type="text" [(ngModel)]="contact.Email"></td>
       <td><input class="border-0" type="text" [(ngModel)]="contact.Phone"></td>
-      <td><input class="border-0" type="text" [(ngModel)]="contact.Message"></td>
-      <!-- <td>
-        
-        <button class="btn btn-success" (click)="updateContact(contact)">Save</button>
-        
-        <button class="btn btn-danger" (click)="deleteContact(contact._id)">Delete</button>
-      </td> -->
+      <!-- <td><input class="border-0" type="text" [(ngModel)]="contact.Message"></td> -->
+      <td>
+        <button class="btn" (click)="onUpdateContact(contact)"><img src="../../assets/edit.png" alt="" width="20"></button>
+        <button class="btn" (click)="deleteContacts(contact.ContactId)"><img src="../../assets/delete.png" alt="" width="20"></button>
+      </td> 
     </tr>
   </tbody>
 </table>
