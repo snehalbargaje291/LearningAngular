@@ -12,7 +12,7 @@
   </thead>
   <tbody>
     <tr *ngFor="let contact of formData.data;">
-      <td>{{ contact._id }}</td>
+      <td>{{ contact.ContactId }}</td>
       <td><input class="border-0" type="text" [(ngModel)]="contact.Name"></td>
       <td><input class="border-0" type="text" [(ngModel)]="contact.Email"></td>
       <td><input class="border-0" type="text" [(ngModel)]="contact.Phone"></td>
